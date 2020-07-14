@@ -1,5 +1,10 @@
 const k = 6;
 const arr = [35,4,6,44,3,84,56,345,467];
+/**
+ *
+ * @param {*} sizeIndex 从小到大的顺序
+ * @param {*} arr 源数组
+ */
 function findItemBySizeIndex(sizeIndex, arr) {
     if (sizeIndex > arr.length) {
         console.log('数组数量不够，不存在这样的数');
