@@ -1,5 +1,3 @@
-const k = 6;
-const arr = [35,4,6,44,3,84,56,345,467];
 /**
  *
  * @param {*} sizeIndex 从小到大的顺序
@@ -31,4 +29,7 @@ function findItemBySizeIndex(sizeIndex, arr) {
         return findItemBySizeIndex((sizeIndex - 1 - arrLeft.length), arrRight);
     }
 }
+
+const k = 6;
+const arr = [35,4,6,44,3,84,56,345,467];
 findItemBySizeIndex(k, arr);
