@@ -5,7 +5,8 @@ function calSquareRoot(num) {
     };
     if(num === 0 || num === 1) return num;
     function findBetweeneMinAndMax(num, min, max) {
-        let middle = parseInt((min + max) * 1000000) / 2 / 1000000;
+        const toFixed = (num) => Math.floor((num) * 1000000) / 1000000;
+        let middle = toFixed((min + max) / 2);
         if((middle + 0.000001) * (middle + 0.000001) > num && (middle - 0.000001) * (middle - 0.000001) < num) {
             return middle;
         } else if((middle * middle) > num) {
