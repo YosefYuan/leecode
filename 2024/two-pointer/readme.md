@@ -27,7 +27,7 @@ Process:
 - Mathematical proof
 ![alt text](image-2.png)
 
-2. Trapping Rain Water(42)
+2. Trapping Rain Water(42) [hard]
 3. Move Zeros(283)
 4. Remove Duplicates From Sorted Array II(80)
 5. Remove All Adjacent Duplicates In string(1047)
